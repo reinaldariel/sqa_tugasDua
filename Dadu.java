@@ -22,6 +22,9 @@ return warna;
 public int getJumSisi() {
 return jumSisi;
 }
+public int getWarna(){
+warna = color.rgb(Rand.nextInt(255),Rand.nextInt(255),Rand.nextInt(255));
+}
 public int getHasil() {
 return hasil;
 }
