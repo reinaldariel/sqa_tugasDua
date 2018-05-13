@@ -1,4 +1,5 @@
 import java.util.Random;
+import java.awt.color;
 public final class Dadu {
 public static final int DEFAULT_SISI = 6;
 private static Random randGenerator = new Random();
