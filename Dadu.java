@@ -1,8 +1,21 @@
+/*
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
+package javaapplication6;
+
 import java.util.Random;
+import java.awt.Color;
+/**
+ *
+ * @author Aloysius
+ */
 public final class Dadu {
 public static final int DEFAULT_SISI = 6;
 private static Random randGenerator = new Random();
 private final int jumSisi;
+private final int cek;
 private int hasil;
 public Dadu() {
 this(DEFAULT_SISI);
