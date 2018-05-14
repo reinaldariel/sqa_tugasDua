@@ -3,6 +3,7 @@ public final class Dadu {
 public static final int DEFAULT_SISI = 6;
 private static Random randGenerator = new Random();
 private final int jumSisi;
+private final int cek;
 private int hasil;
 public Dadu() {
 this(DEFAULT_SISI);
